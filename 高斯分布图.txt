@@ -1,0 +1,8 @@
+>> absb=abs(B1);   %B1是一个复数矩阵，用‘abs’函数取绝对值
+>> absb2=abs(B2);
+>> plot(absb2(65,:));     %在x=65的地方切一刀，读出所有值并成像
+>> grid on
+>> figure
+>> plot(absb2(:,65))      %在y=65的地方卡一刀，读出所有X值并成像
+>> hold on
+>> plot(absb(:,65))

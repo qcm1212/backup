@@ -1,0 +1,1 @@
+pwelch(data,hanning(1024),512,1024);
