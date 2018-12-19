@@ -1,0 +1,10 @@
+1、ECEI=imaging_384_2014(shot,ptime,method，fLO,IT);   %%将所需参数load至'ECEI'
+   ECEI=imaging_384(42288,[3.1 3.2],4，105,10000);
+
+2、imag_pt384_v3(ECEI);    %%成像图绘制
+
+	1).选取成像起始时刻
+	2).选取8个点，选取成功会自动分配编号
+
+3、gifmake(ECEI,DN);    %%绘制动态
+   gifmake(ECEI,10);
